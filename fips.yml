@@ -3,10 +3,6 @@
 
 # external dependencies
 imports:
-    # short-name from registry, or git url
-    fips-hello-dep1:
-        # imported items, left is exported name, right is local name
-        dep1:   dep1
-        dep2:   dep2
+    fips-hello-dep1: [ dep1 ]
 
 
