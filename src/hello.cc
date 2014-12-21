@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include "dep1/dep1.h"
 
+#if FIPS_PNACL | FIPS_IOS | FIPS_ANDROID
+#error "Standard C Hello World not supported on this platform"
+#endif
+
 int main() {
     printf("Hello World!\n");
     print_dep1();
