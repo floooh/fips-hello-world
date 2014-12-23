@@ -3,6 +3,7 @@
 
 # external dependencies
 imports:
-    fips-hello-dep1: [ dep1 ]
+    - fips-hello-dep1
+
 
 
