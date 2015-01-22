@@ -3,7 +3,9 @@
 
 # external dependencies
 imports:
-    - fips-hello-dep1
+    fips-hello-dep1:
+        git:    https://github.com/floooh/fips-hello-dep1.git
+
 
 
 
