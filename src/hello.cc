@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "dep1/dep1.h"
+#include "dep3/dep3.h"
 
 #if FIPS_PNACL | FIPS_IOS | FIPS_ANDROID
 #error "Standard C Hello World not supported on this platform"
@@ -16,6 +17,9 @@ int main(int argc, const char** argv) {
     for (int i = 0; i < argc; i++) {
         printf("Arg %d: %s\n", i, argv[i]);
     }
+
+    correct_old_api_dep3(1);
+
     return 0;
 }
 
