@@ -7,4 +7,4 @@ imports:
         git:    https://github.com/floooh/fips-hello-dep1.git
     fips-hello-dep3:
         git:    https://github.com/fungos/fips-hello-dep3.git
-        rev:    191f59f0
+        rev:    6d69b59d
